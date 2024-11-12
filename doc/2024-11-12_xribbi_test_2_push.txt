@@ -90,4 +90,27 @@ Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/xribbi/test_e1044.git
    21daa30..c84973b  main -> main
-   
+
+
+c:\X\test>git add *
+
+c:\X\test>git commint -m "update+"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+c:\X\test>git commit -m "update+"
+[main f7802cc] update+
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+c:\X\test>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 662 bytes | 331.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/xribbi/test_e1044.git
+   c84973b..f7802cc  main -> main
