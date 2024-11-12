@@ -163,3 +163,75 @@ nothing to commit, working tree clean
 c:\X\test>git push
 Everything up-to-date
 ============================================================================
+c:\X\test>git add *
+
+c:\X\test>git commit -m "*"
+[main fd5a177] *
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+c:\X\test>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 411 bytes | 411.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/xribbi/test_e1044.git
+   fad37ad..fd5a177  main -> main
+==============================================================================
+c:\X\test>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+c:\X\test>git add  *
+
+c:\X\test>git commit -m "*"
+[main 285c501] *
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename doc/{2024-11-12_xribbi_test_e1044.pdf => xribbi_test_e1044.pdf} (100%)
+
+c:\X\test>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 284.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/xribbi/test_e1044.git
+   fd5a177..285c501  main -> main   
+
+==============================================================================
+c:\X\test>git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/std/AppData/Local/Programs/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=xribbi.oz@gmail.com
+user.name=xribbi
+color.ui=auto
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/xribbi/test_e1044.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+==============================================================================
+==============================================================================
+==============================================================================   
