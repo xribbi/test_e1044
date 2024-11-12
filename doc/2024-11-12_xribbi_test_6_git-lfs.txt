@@ -1,0 +1,23 @@
+Already up to date.
+[main c3fca9d] _
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 win/install/Git-2.47.0.2-64-bit.exe
+ create mode 100644 win/install/VSCodeUserSetup-x64-1.95.2.exe
+ create mode 100644 win/install/python-3.10.9-amd64.exe
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 190.59 MiB | 13.80 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File win/install/Git-2.47.0.2-64-bit.exe is 65.59 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File win/install/VSCodeUserSetup-x64-1.95.2.exe is 98.57 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/xribbi/test_e1044.git
+   8793e14..c3fca9d  main -> main
+
+*********************************************************************************************
+Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com
+*********************************************************************************************
