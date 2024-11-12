@@ -23,4 +23,22 @@ To https://github.com/xribbi/test_e1044.git
 ***************************************************************************************
 ****  git pull ; git pull                                                           ***
 ***************************************************************************************
+c:\X\test>git add *
+
+c:\X\test>git commit -m "*"
+[main 9952aaa] *
+ 1 file changed, 26 insertions(+)
+ create mode 100644 doc/2024-11-12_xribbi_test_4_rename.txt
+
+c:\X\test>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 810 bytes | 405.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/xribbi/test_e1044.git
+   0b2c3db..9952aaa  main -> main
+   
 
