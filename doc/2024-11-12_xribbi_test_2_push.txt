@@ -252,5 +252,27 @@ To https://github.com/xribbi/test_e1044.git
    285c501..4bfd8bd  main -> main
 
 ==============================================================================
+==============================================================================
+******************************************************************************
+********************************** pull & push *******************************
+******************************************************************************
+c:\X\test>git pull
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 20 (delta 13), reused 17 (delta 10), pack-reused 0 (from 0)
+Unpacking objects: 100% (20/20), 144.05 KiB | 1.40 MiB/s, done.
+From https://github.com/xribbi/test_e1044
+   0bb6377..810ec8b  main       -> origin/main
+Updating 0bb6377..810ec8b
+Fast-forward
+ doc/2024-11-12_xribbi_test_3_clone.txt | 133 +++++++++++++++++++++++++++++++++
+ doc/git config -l_xtal6.txt            |  29 +++++++
+ doc/git status.png                     | Bin 0 -> 157338 bytes
+ 3 files changed, 162 insertions(+)
+ create mode 100644 doc/2024-11-12_xribbi_test_3_clone.txt
+ create mode 100644 doc/git config -l_xtal6.txt
+ create mode 100644 doc/git status.png
 
-==============================================================================   
+c:\X\test>git push
+Everything up-to-date   
