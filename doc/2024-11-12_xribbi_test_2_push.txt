@@ -114,3 +114,39 @@ Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To https://github.com/xribbi/test_e1044.git
    c84973b..f7802cc  main -> main
+
+
+==========================================================================
+c:\X\test>git commit -m "udpate++"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   doc/2024-11-12_xribbi_test_2_push.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\X\test>git add *
+
+c:\X\test>git commint -m "update++"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+c:\X\test>git commit -m "update++"
+[main 0f47f93] update++
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+
+c:\X\test>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 535 bytes | 267.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/xribbi/test_e1044.git
+   f7802cc..0f47f93  main -> main
