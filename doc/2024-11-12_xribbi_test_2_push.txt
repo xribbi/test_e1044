@@ -64,3 +64,30 @@ To https://github.com/xribbi/test_e1044.git
    d124547..21daa30  main -> main
 
 c:\X\test>
+
+c:\X\test>git add *
+
+c:\X\test>git commint -m "update"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+c:\X\test>git commit -m "update"
+[main c84973b] update
+ 3 files changed, 66 insertions(+)
+ rename doc/{2024-11-12_xribbi_test_init.txt => 2024-11-12_xribbi_test_1_init.txt} (100%)
+ create mode 100644 doc/2024-11-12_xribbi_test_2_push.txt
+ create mode 100644 doc/git config --global color.ui auto.png
+
+c:\X\test>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 59.47 KiB | 5.41 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/xribbi/test_e1044.git
+   21daa30..c84973b  main -> main
+   
