@@ -21,3 +21,30 @@ To https://github.com/xribbi/test_e1044.git
 *********************************************************************************************
 Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com
 *********************************************************************************************
+
+d:\@\#\clone\test_e1044>git_
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 3), reused 12 (delta 3), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 190.62 MiB | 13.84 MiB/s, done.
+From https://github.com/xribbi/test_e1044
+   8793e14..f786935  main       -> origin/main
+Updating 8793e14..f786935
+Fast-forward
+ doc/2024-11-12_xribbi_test_6_git-lfs.txt   |  23 +++++++++++++++++++++++
+ doc/git-lfs.github.com                     | Bin 0 -> 49291 bytes
+ win/install/Git-2.47.0.2-64-bit.exe        | Bin 0 -> 68778784 bytes
+ win/install/VSCodeUserSetup-x64-1.95.2.exe | Bin 0 -> 103356872 bytes
+ win/install/python-3.10.9-amd64.exe        | Bin 0 -> 28980224 bytes
+ 5 files changed, 23 insertions(+)
+ create mode 100644 doc/2024-11-12_xribbi_test_6_git-lfs.txt
+ create mode 100644 doc/git-lfs.github.com
+ create mode 100644 win/install/Git-2.47.0.2-64-bit.exe
+ create mode 100644 win/install/VSCodeUserSetup-x64-1.95.2.exe
+ create mode 100644 win/install/python-3.10.9-amd64.exe
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
