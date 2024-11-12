@@ -1,0 +1,26 @@
+***************************************************************************************
+****  git add * ; git commit -m "rename" ; git push                                 ***
+***************************************************************************************
+c:\X\test>git add *
+warning: in the working copy of 'Test_105_LinearRegression.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+c:\X\test>git commit -m "rename"
+[main 0b2c3db] rename
+ 2 files changed, 23 insertions(+), 1 deletion(-)
+ rename Test_106_LinearRegression.ipynb => Test_105_LinearRegression.ipynb (100%)
+
+c:\X\test>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 744 bytes | 744.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/xribbi/test_e1044.git
+   810ec8b..0b2c3db  main -> main
+
+***************************************************************************************
+****  git pull ; git pull                                                           ***
+***************************************************************************************
+
