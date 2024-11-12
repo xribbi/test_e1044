@@ -1,0 +1,33 @@
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+c:\X\test>git init -b main
+Initialized empty Git repository in C:/X/test/.git/
+
+c:\X\test>git add .
+warning: in the working copy of 'Test_101_Install.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_102_CostFunction.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_103_Gradient.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_104_Tensor.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_105_TensorWithBias.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_106_LinearRegression_0GradientTape.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_107_LinearRegression_1Tensorflow.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Test_108_LinearRegression_2Keras.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'doc/2024-11-11_HomeWork.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+c:\X\test>git commit -m "First commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'std@edwk32.(none)')
+
+c:\X\test>git config --global user.email xribbi.oz@gmail.com
+
+c:\X\test>git config --global user.name xribbi

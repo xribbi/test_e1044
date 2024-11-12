@@ -1,0 +1,43 @@
+c:\X\test>type README.md
+"# test_e1044"
+
+c:\X\test>git init
+Reinitialized existing Git repository in C:/X/test/.git/
+
+c:\X\test>git add README.md
+
+c:\X\test>git commit -m "first commit"
+[main (root-commit) d124547] first commit
+ 13 files changed, 8923 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 Test_101_Install.ipynb
+ create mode 100644 Test_102_CostFunction.ipynb
+ create mode 100644 Test_103_Gradient.ipynb
+ create mode 100644 Test_104_Tensor.ipynb
+ create mode 100644 Test_105_TensorWithBias.ipynb
+ create mode 100644 Test_106_LinearRegression_0GradientTape.ipynb
+ create mode 100644 Test_107_LinearRegression_1Tensorflow.ipynb
+ create mode 100644 Test_108_LinearRegression_2Keras.ipynb
+ create mode 100644 data.zip
+ create mode 100644 doc/2024-11-11_HomeWork.ipynb
+ create mode 100644 doc/2024-11-11_LMS.pdf
+ create mode 100644 doc/2024-11-11_Python Releases for Windows _ Python.org.pdf
+
+c:\X\test>git branch -M main
+
+c:\X\test>git remote add origin https://github.com/xribbi/test_e1044.git
+
+c:\X\test>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 17.31 MiB | 6.57 MiB/s, done.
+Total 16 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/xribbi/test_e1044.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+c:\X\test>
