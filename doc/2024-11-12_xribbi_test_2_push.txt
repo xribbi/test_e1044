@@ -1,0 +1,66 @@
+c:\X\test>git config --global color.ui auto
+
+c:\X\test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Test_101_Install.ipynb
+        renamed:    Test_102_CostFunction.ipynb -> Test_102_Cost.ipynb
+        renamed:    Test_105_TensorWithBias.ipynb -> Test_106_LinearRegression.ipynb
+        new file:   Test_109_MultiLinearRegression.ipynb
+        deleted:    doc/2024-11-11_HomeWork.ipynb
+        deleted:    doc/2024-11-11_LMS.pdf
+        deleted:    doc/2024-11-11_Python Releases for Windows _ Python.org.pdf
+        new file:   doc/2024-11-11_xribbi_test.txt
+        new file:   doc/2024-11-12_xribbi_test_e1044.pdf
+        new file:   doc/2024-11-12_xribbi_test_init.txt
+
+
+c:\X\test>git branch
+* main
+
+c:\X\test>git log
+commit d124547a0efbc66636118b810a4b7f0a90d4c23f (HEAD -> main, origin/main)
+Author: xribbi <xribbi.oz@gmail.com>
+Date:   Tue Nov 12 10:07:34 2024 +0900
+
+    first commit
+
+c:\X\test>git tag
+
+c:\X\test>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+c:\X\test>git add *
+warning: in the working copy of 'Test_110_MultiLinearRegressionKeras.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+c:\X\test>git commit -m "2nd test update"
+[main 21daa30] 2nd test update
+ 11 files changed, 4568 insertions(+), 176 deletions(-)
+ rename Test_102_CostFunction.ipynb => Test_102_Cost.ipynb (100%)
+ rename Test_105_TensorWithBias.ipynb => Test_106_LinearRegression.ipynb (100%)
+ create mode 100644 Test_109_MultiLinearRegression.ipynb
+ create mode 100644 Test_110_MultiLinearRegressionKeras.ipynb
+ delete mode 100644 doc/2024-11-11_HomeWork.ipynb
+ delete mode 100644 doc/2024-11-11_LMS.pdf
+ delete mode 100644 doc/2024-11-11_Python Releases for Windows _ Python.org.pdf
+ create mode 100644 doc/2024-11-11_xribbi_test.txt
+ create mode 100644 doc/2024-11-12_xribbi_test_e1044.pdf
+ create mode 100644 doc/2024-11-12_xribbi_test_init.txt
+
+c:\X\test>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 132.26 KiB | 6.61 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/xribbi/test_e1044.git
+   d124547..21daa30  main -> main
+
+c:\X\test>
