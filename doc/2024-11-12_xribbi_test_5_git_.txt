@@ -96,4 +96,24 @@ remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To https://github.com/xribbi/test_e1044.git
    9cb00e3..71ce8bb  main -> main
 
+c:\X\test>git_
+Already up to date.
+[main 3a9e6b9] _
+ 1 file changed, 13 insertions(+)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 536 bytes | 536.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/xribbi/test_e1044.git
+   71ce8bb..3a9e6b9  main -> main
+c:\X\test>git_
+Already up to date.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
 
