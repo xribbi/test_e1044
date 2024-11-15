@@ -50,3 +50,7 @@ if __name__ == "__main__":
     g2 = XX(AA, '__globals__')
 
     WW()
+
+#
+# GitHub's recommended maximum file size of 50.00 MB
+#
