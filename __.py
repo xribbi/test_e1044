@@ -2,15 +2,24 @@
 # Utility functions to inspect object attributes (QQ), to print the eval of expressons (AA)
 #
 
-BB = "\U0001F620" # 😠 "B"ad! emoji (larger than 1-ASCII string in print size)
-SS = lambda s, L: s if len(s) <= L else (s[:(L-2)]+BB); # "S"hortend string (witin Limit, L)
+EE = "\U0001F620" # 😠 "E"moji (larger than 1-ASCII string in print size) <= chcp 65001 for utf-8 ??
+SS = lambda s, L: s if len(s) <= L else (s[:(L-2)]+EE); # "S"hortend string (witin Limit, L)
+#
+# Printing Emoji has problem on Windows 10, not because of interpreter (c:\Windows\System32\cmd.exe), but because of terminal (c:\Windows\System32\conhost.exe).
+#                                
+# <UTF-8 support>  Console   Terminal 
+# Command Prompt      No          Yes       https://github.com/microsoft/terminal  
+# PowerShell          No          Yes       https://learn.microsoft.com/en-us/windows/terminal/install 
+#
+# CTRL + ',' (with terminal.exe) to customize "Profiles" including "Starting directory".
+#
 
 def QQ(o): [print("%04d:%20s:%100s"%(i,a,SS(str(getattr(o,a)),100))) for (i,a) in enumerate(dir(o),1)] # "Q"uery for obj attr
 def AA(e): print(e+" ==> "+str(eval(e))); # "A"nswer for str expression
 def ZZ(): print("*"*126) # "ZZ" is the long-line marking
 #
-# Q,A,Z,S are chosen because they are close to each other in qwerty !
-# Then they are doulbed to avoid "unintented-namimg-override" !
+# Q,W,E;A,S;Z,X are chosen because they are close to each other in qwerty !
+# Then they are doubled to avoid "unintented-namimg-override" !
 #
 
 def XX(o,a): # to check the e"X"cesivevly long Object's Attribute
