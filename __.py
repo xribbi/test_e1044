@@ -54,3 +54,39 @@ if __name__ == "__main__":
 #
 # GitHub's recommended maximum file size of 50.00 MB
 #
+"""
+관련 파일 및 폴더 wt.exe --> 0 bytes ??
+
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\Microsoft.GetHelp_8wekyb3d8bbwe
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe
+
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\wt.exe
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.exe
+
+C:\>dir wt.exe /S/B
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\wt.exe
+C:\Users\std\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.exe
+
+C:\>dir cmd.exe /S/B
+C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.4780.1.15\amd64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_ffc6e686cf96c006\f\cmd.exe
+C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.4780.1.15\wow64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_0a1b90d903f78201\f\cmd.exe
+C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.5011.1.13\amd64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_ffc6e686cf96c006\f\cmd.exe
+C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.5011.1.13\wow64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_0a1b90d903f78201\f\cmd.exe
+C:\Windows\System32\cmd.exe
+C:\Windows\SysWOW64\cmd.exe
+C:\Windows\WinSxS\amd64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_ffc6e686cf96c006\cmd.exe
+C:\Windows\WinSxS\amd64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_ffc6e686cf96c006\f\cmd.exe
+C:\Windows\WinSxS\amd64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_ffc6e686cf96c006\r\cmd.exe
+C:\Windows\WinSxS\wow64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_0a1b90d903f78201\cmd.exe
+C:\Windows\WinSxS\wow64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_0a1b90d903f78201\f\cmd.exe
+C:\Windows\WinSxS\wow64_microsoft-windows-commandprompt_31bf3856ad364e35_10.0.19041.4355_none_0a1b90d903f78201\r\cmd.exe
+
+C:\>dir conhost.exe /S/B
+C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.4780.1.15\amd64_microsoft-onecore-console-host-core_31bf3856ad364e35_10.0.19041.4355_none_e2506339d96f482b\f\conhost.exe
+C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.5011.1.13\amd64_microsoft-onecore-console-host-core_31bf3856ad364e35_10.0.19041.4355_none_e2506339d96f482b\f\conhost.exe
+C:\Windows\System32\conhost.exe
+C:\Windows\WinSxS\amd64_microsoft-onecore-console-host-core_31bf3856ad364e35_10.0.19041.4355_none_e2506339d96f482b\conhost.exe
+C:\Windows\WinSxS\amd64_microsoft-onecore-console-host-core_31bf3856ad364e35_10.0.19041.4355_none_e2506339d96f482b\f\conhost.exe
+C:\Windows\WinSxS\amd64_microsoft-onecore-console-host-core_31bf3856ad364e35_10.0.19041.4355_none_e2506339d96f482b\r\conhost.exe
+"""
